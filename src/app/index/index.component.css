@@ -1,0 +1,121 @@
+
+
+
+.bg{
+    width: 100%;
+    height:auto;
+    min-height:100vh;
+    background-image:url(http://i.imgur.com/w16HASj.png);
+    background-size:cover;
+    /* background-position: fixed center; */
+  }
+.user
+{
+  color: white;
+  padding: 70px;
+  font-size: 40px;
+  font-weight: 500;
+  float: left;
+}
+  .content{
+margin-top: 20%;
+  }
+
+  .centered {
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.InputStyle{
+  border-radius: 25px;
+  border: solid 1px white;
+ background: transparent;
+ width: 300px;
+    padding: 10px 20px;
+    padding-top: -50%;
+}
+
+
+
+input,input::-webkit-input-placeholder {
+    font-size: 12px;
+  color:white;
+}
+
+
+
+i{
+ padding:5px;
+  color:white;
+
+}
+
+input, input:focus{
+  border: solid 1px white;
+        outline:0; 
+        
+        box-shadow: nones;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+}
+
+.secondLine{
+  font-weight: 350;
+  font-size:15px;
+  margin-bottom:5%;
+  color: white;
+
+}
+
+.firstLine{
+font-size: 70px;
+color: white;
+font-weight: 800;
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .firstLine{
+font-size: 20px;
+}
+} */
+
+.task
+{
+  font-weight: 800;
+  color: white;
+}
+
+
+button
+{
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+
+}
+
+button:hover
+{
+  box-shadow: 5px 5px 5px black;
+}
+
+.tasks
+{
+  color: white;
+  font-size: 20px;
+}
+.btn
+{
+  background-color:white;
+  color: black;
+}
+.btn:hover
+{
+  background-color:green;
+}
+.button{
+  height: 30px;
+}
